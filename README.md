@@ -1,0 +1,1 @@
+color palette: https://www.canva.com/colors/color-palettes/speckled-eggs/
