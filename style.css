@@ -141,7 +141,7 @@ nav ul li:hover a{
     font-weight: bold;
     font-size: 40px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    /*border-radius: 0 3px 3px 0;*/
     user-select: none;
   }
 
@@ -154,11 +154,50 @@ nav ul li:hover a{
 }
 
 .text {
-    color: black;
+    color: #003B73;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
+}
+
+.news {
+    margin: 50px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.news-txt{
+    color: #60A3D9;
+    margin: 10px;
+}
+
+.article {
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
+
+a.article-link {
+    color: #60A3D9;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+a.article-link:hover {
+    color: #BFD7ED;
+}
+
+a.article-link:visited {
+    color: #003B73;
+}
+
+.article-img {
+    width: 70px;
+    height: 70px;
+}
