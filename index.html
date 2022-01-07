@@ -9,17 +9,10 @@
     <link rel="shortcut icon" type="image/png" href="img/dragon-favicon-16x16.png"/>
     </head>
 
-  <body onload="showSlides(1)">
+  
     <script src="script.js"></script>
     <div id="wrapper">
-      <!--
-        <div class="header"> -->
-            <!-- dragon image was ss from insta lol so we need to get the original-->
-            <!--<h1>Dragon Coalition <img src="img/temp_dragon_logo.jpeg" width="100" height="100" class="dragon-header"/></h1> -->
-            <!-- img was taken from internet under cc liscense but should still get our own original version-->
-            <!--<img src="img/blue_flames.jpg" width="100%" height="100"/> -->
-           
-        <!--</div>-->
+
         <!-- any nav functions signify the navigation bar-->
         <nav>
           <ul>
@@ -33,26 +26,61 @@
           </ul>
         </nav>
 
-        <div class="img-display">
-          <div class="slides">
-            <img src="img/homepic_team.PNG" alt="HTML5 Icon" class = "img-ss">
-            <div class="text">Caption Text</div>
-          </div>
+        <!-- secondary image slider -->
+        <div class = "slider">
+          <div class = "slides2">
+             <!-- radio buttons -->
+             <input type = "radio" name = "radio-btn" id = "radio1">
+             <input type = "radio" name = "radio-btn" id = "radio2">
+             <input type = "radio" name = "radio-btn" id = "radio3">
+             <input type = "radio" name = "radio-btn" id = "radio4">
+            <!-- slide images start -->
+              <div class = "slide first">
+                <img src="img/homepic_team.PNG" alt="">
+              </div>
 
-          <div class="slides">
-            <img src="img/homepic_team_funny.jpeg" alt="HTML5 Icon" class = "img-ss">
-            <div class="text">Caption Text</div>
-          </div>
+              <div class = "slide second">
+                <img src="img/homepic_team_funny.jpeg" alt="">
+              </div>
 
-          <div class="slides">
-            <img src="img/homepic_placeholder_soren.jpeg" alt="HTML5 Icon" class = "img-ss">
-            <div class="text">Caption Text</div>
-          </div>
+              <div class = "slide third">
+                <img src="img/homepic_sonic_celeb.PNG" alt="">
+              </div>
 
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
+              <div class = "slide fourth">
+                <img src="img/homepic_placeholder_soren.jpeg" alt="">
+              </div>
+
+              <!-- automatic navigation start -->
+              <div class = "navigation-auto">
+                <div class = "auto-btn1"></div>
+                <div class = "auto-btn2"></div>
+                <div class = "auto-btn3"></div>
+                <div class = "auto-btn4"></div>
+              </div>
+              <!-- automatic navigation end -->
+          </div>
+             <!-- manual navigation start -->
+             <div class = "navigation-manual">
+                <label for="radio1" class = "manual-btn"></label>
+                <label for="radio2" class = "manual-btn"></label>
+                <label for="radio3" class = "manual-btn"></label>
+                <label for="radio4" class = "manual-btn"></label>
+             </div>
+             <!-- manual navigation end -->
+      </div>
+
+      <script type = "text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+            if(counter > 4){
+              counter = 1; 
+            }
+        },5000);
+      </script>
+
 
         <!-- again, not the prettiest but something ig-->
         <div class="news">
@@ -68,7 +96,7 @@
           </div>
         </div>
         
-
+        
 
 
     </div>
