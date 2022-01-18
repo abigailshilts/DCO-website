@@ -9,12 +9,12 @@
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #003B73;
   
 }
 
 body{
-    background: white;
+    background: #003B73;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -81,8 +81,16 @@ nav ul li.logo{
    flex: 2;
    cursor: default;
    user-select: none; 
-    
 }
+
+nav ul li.name{
+    flex: 2;
+    cursor: default;
+    user-select: none; 
+    font-size: 30px; 
+    margin: -20%;
+     
+ }
 
 nav ul li a{
     color: white; 
@@ -108,6 +116,7 @@ nav ul li:hover a{
 
 .menu-logo{
     border-radius: 50%;
+    
 }
 
 .dragon-header{
@@ -125,7 +134,7 @@ nav ul li:hover a{
     overflow: hidden; 
     padding-left: 25%;
     padding-right: 25%;
-    background: #BFD7ED;
+    background: #0074B7;
 
    
 }
@@ -235,6 +244,9 @@ nav ul li:hover a{
     border-style: solid;
     border-width: 2px;
     padding: 5px;
+    background: white; 
+    font-family: russo; 
+    font-weight: lighter;
 }
 
 .news-txt{
