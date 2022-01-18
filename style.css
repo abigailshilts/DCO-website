@@ -209,6 +209,7 @@ nav ul li:hover a{
     border-radius: 10px; 
     transition: 1s; 
     justify-content: center;
+    display: none; 
 }
 
 .navigation-auto div:not(:last-child){
