@@ -81,16 +81,9 @@ nav ul li.logo{
    flex: 2;
    cursor: default;
    user-select: none; 
+
 }
 
-nav ul li.name{
-    flex: 2;
-    cursor: default;
-    user-select: none; 
-    font-size: 30px; 
-    margin: -20%;
-     
- }
 
 nav ul li a{
     color: white; 
@@ -116,7 +109,6 @@ nav ul li:hover a{
 
 .menu-logo{
     border-radius: 50%;
-    
 }
 
 .dragon-header{
@@ -282,7 +274,7 @@ a.article-link:visited {
 }
 
 .cu-title {
-    color: #60A3D9;
+    color: white;
     text-align: center;
     font-size: 40px;
 }
