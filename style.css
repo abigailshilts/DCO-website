@@ -119,12 +119,12 @@ nav ul li:hover a{
 
 /* Start of slideshow */
 .slider{
-    width: 800px;
+    width: fill;
     height: 500px;
     border-radius: 10px; 
     overflow: hidden; 
-    padding-left: 500px;
-    padding-right: 560px;
+    padding-left: 25%;
+    padding-right: 25%;
     background: #BFD7ED;
 
    
@@ -133,7 +133,7 @@ nav ul li:hover a{
 .slides2{
     width: 1000%;
     height: 500px; 
-    display: flex; 
+    display: flex;
 }
 
 .slides2 input{
@@ -153,11 +153,12 @@ nav ul li:hover a{
 }
 /*Manual slide navigation below*/
 .navigation-manual{
-    position: absolute;
-    width: 800px;
+    /*position: absolute;*/
+    width: 100%;
     margin-top: -40px; 
     display: flex;
     justify-content: center; 
+
 }
 
 .manual-btn{
@@ -197,7 +198,7 @@ nav ul li:hover a{
 .navigation-auto{
     position: absolute;
     display: flex; 
-    width: 800px;
+    width: 100%;
     justify-content: center;
     margin-top: 460px; 
 }
@@ -207,6 +208,7 @@ nav ul li:hover a{
     padding: 5px;
     border-radius: 10px; 
     transition: 1s; 
+    justify-content: center;
 }
 
 .navigation-auto div:not(:last-child){
