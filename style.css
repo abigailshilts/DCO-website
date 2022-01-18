@@ -267,3 +267,33 @@ a.article-link:visited {
     width: 70px;
     height: 70px;
 }
+
+.cu-title {
+    color: #60A3D9;
+    text-align: center;
+    font-size: 40px;
+}
+
+.captains-contact {
+    text-align: center;
+}
+
+.mojo-photo{
+    float: left;
+}
+
+.emails {
+    display: inline-block;
+    color: #003B73;
+    font-size: 25px;
+    
+}
+
+.raffi-photo {
+    float: right;
+}
+
+.captains-contact img{
+    height: 400px;
+    width: 400px;
+}
