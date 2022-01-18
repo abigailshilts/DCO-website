@@ -17,11 +17,11 @@ body{
     background: white;
     margin: 0;
     padding: 0;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
-    
+    overflow-x: hidden;
 }
 
 .header{
