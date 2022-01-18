@@ -276,6 +276,8 @@ a.article-link:visited {
 
 .captains-contact {
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 .mojo-photo{
@@ -291,9 +293,36 @@ a.article-link:visited {
 
 .raffi-photo {
     float: right;
+    margin: 0px;
 }
 
 .captains-contact img{
     height: 400px;
     width: 400px;
+}
+
+.social-media-txt {
+    color: #003B73;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logos {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.instagram{
+    float: left;
+}
+
+.twitter {
+    display: inline-block;
+    
+}
+
+.facebook {
+    float: right;
+    margin: 0px;
 }
