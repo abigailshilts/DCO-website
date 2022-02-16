@@ -324,7 +324,24 @@ a.article-link:visited {
 
 .twitter {
     display: inline-block;
-    
+    text-align: center;
+}
+
+.twitter img{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.instagram img{
+    margin-left: 45px;
+    height: 200px;
+    width: 200px;
+}
+
+.facebook img{
+    height: 200px;
+    width: 350px;
 }
 
 .facebook {
