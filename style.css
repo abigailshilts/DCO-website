@@ -277,6 +277,7 @@ a.article-link:visited {
     color: white;
     text-align: center;
     font-size: 40px;
+    font-family: russo; 
 }
 
 .captains-contact {
@@ -293,6 +294,7 @@ a.article-link:visited {
     display: inline-block;
     color: white;
     font-size: 25px;
+    font-family: russo; 
     
 }
 
@@ -310,6 +312,7 @@ a.article-link:visited {
     color: white;
     font-size: 25px;
     text-align: center;
+    font-family: russo; 
 }
 
 .logos {
