@@ -250,14 +250,16 @@ nav ul li:hover a{
     margin: 10px;
     border-style: solid;
     border-width: 1px;
-    padding: 20px;
+    align-items: center; 
+
 }
 
 a.article-link {
     color: #60A3D9;
     text-decoration: none;
-    font-size: 30px;
-
+    font-size: 20px;
+    display: inline;
+    padding-left: 5px;
 }
 
 a.article-link:hover {
@@ -271,6 +273,11 @@ a.article-link:visited {
 .article-img {
     width: 70px;
     height: 70px;
+    display: inline-block;
+}
+
+.article-img, .article-link{
+    align-self: center; 
 }
 
 .cu-title {
